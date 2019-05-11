@@ -1,4 +1,9 @@
 body {
-    background-color: black;
-    color: white;
+    width: 80%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-header {
+    font-size: 4.4rem;
 }
