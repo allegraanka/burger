@@ -10,6 +10,11 @@ var burger = {
         orm.insertOne("burgers", cols, vals, function (res) {
             callback(res);
         });
+    },
+    update: function (objColVals, condition, callback) {
+        orm.update("burgers", objColVals, condition, function (res) {
+            callback(res);
+        });
     }
 };
 
