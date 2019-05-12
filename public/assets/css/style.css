@@ -5,5 +5,19 @@ body {
 }
 
 .title-header {
+    font-family: 'Modak', cursive;
     font-size: 4.4rem;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid black;
+}
+
+.try-burger-title, 
+.devoured-burger-title,
+.add-burger-title {
+    font-family: 'Modak', cursive;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 0.1em;
 }

@@ -1,5 +1,32 @@
 <div class="burger-list">
+    <h2 class="try-burger-title">burgers to try</h2>
     {{#each burgers}}
-    <p>Burger: {{burger_name}}</p>
+    <p>burger: {{burger_name}}</p>
     {{/each}}
+</div>
+
+<div class="burger-list">
+    <h2 class="devoured-burger-title">burgers devoured</h2>
+    {{#each burgers}}
+    <p>burger: {{burger_name}}</p>
+    {{/each}}
+</div>
+
+<div>
+    <h2 class="add-burger-title">add a burger</h2>
+    <form class="create-form">
+    
+        <div class="form-group">
+            <label for="add_burger">burger name</label>
+            <input type="text" id="add_burger" name="name">
+        </div>
+    
+        <div class="form-group">
+            <label for="devoured">tried this burger?</label><br>
+            <input type="radio" name="devoured" value="1" checked> devoured!<br>
+            <input type="radio" name="devoured" value="0"> not yet!
+        </div>
+    
+        <button type="submit">add burger</button>
+    </form>
 </div>
